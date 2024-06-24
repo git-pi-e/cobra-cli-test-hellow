@@ -11,7 +11,7 @@ var rootCmd = &cobra.Command{
 		Short: "hellow CLI",
 		Long: "A Command Line Application that says hellow",
 		Run: func(cmd *cobra.Command, args []string) {
-			fmt.Println("Welcome to hellow!\n")
+			fmt.Printf("Welcome to hellow!\n")
 		},
 }
 
